@@ -57,7 +57,8 @@
           <Build>0</Build>
           <Revision>1</Revision>
         </Version>
-        <ExtensionDescription>FanartHandler Awards images for Medaportal skins</ExtensionDescription>
+        <ExtensionDescription>FanartHandler Awards images for Medaportal skins
+Color 96x96 pack</ExtensionDescription>
         <VersionDescription>Initial ...</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
         <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>

@@ -262,7 +262,8 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Build>0</Build>
       <Revision>1</Revision>
     </Version>
-    <ExtensionDescription>FanartHandler Awards images for Medaportal skins</ExtensionDescription>
+    <ExtensionDescription>FanartHandler Awards images for Medaportal skins
+Color 96x96 pack</ExtensionDescription>
     <VersionDescription>Initial ...</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
@@ -412,7 +413,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{4da40e34-4cd0-4e68-aa17-2ee1fe4b0444}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{a460b8be-d32f-41b0-821e-3308d05d1508}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
