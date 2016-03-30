@@ -413,7 +413,7 @@ Color 96x96 pack</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{a460b8be-d32f-41b0-821e-3308d05d1508}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{6be176f7-8706-4af8-9eac-63738fb970f7}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
