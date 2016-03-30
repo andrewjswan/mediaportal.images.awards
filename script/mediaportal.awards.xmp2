@@ -260,7 +260,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>1</Revision>
+      <Revision>2</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
@@ -413,7 +413,7 @@ Color 96x96 pack</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{6be176f7-8706-4af8-9eac-63738fb970f7}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{d6615c2f-680b-4aeb-a7e5-99edc1610ee6}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
