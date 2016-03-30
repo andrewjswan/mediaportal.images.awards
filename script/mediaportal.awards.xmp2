@@ -260,11 +260,12 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>2</Revision>
+      <Revision>3</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
-    <VersionDescription>Initial ...</VersionDescription>
+    <VersionDescription>Update SAG Awards picture - SAG.png
+</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
     <ReleaseDate>2016-03-29T13:46:50.8929615+03:00</ReleaseDate>
@@ -290,7 +291,7 @@ Color 96x96 pack</ExtensionDescription>
  If it has .dll extension it's started like MP plugin configuration.</Description>
         </SectionParam>
         <SectionParam Name="Online Screenshots">
-          <Value>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/screenshot/scr.awards.01.png</Value>
+          <Value>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/screenshot/scr.awards.01.png;https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/screenshot/scr.awards.02.png</Value>
           <ValueType>String</ValueType>
           <Description>Online stored screenshot urls separated by ; </Description>
         </SectionParam>
@@ -413,7 +414,7 @@ Color 96x96 pack</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{d6615c2f-680b-4aeb-a7e5-99edc1610ee6}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{07cf361f-9d4b-4405-8acb-7463a976415f}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
