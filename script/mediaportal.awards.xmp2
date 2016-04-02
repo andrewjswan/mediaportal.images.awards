@@ -114,6 +114,55 @@
               <ZipFileName>Installer{CopyFile}\{3da7a6fb-a1cb-4ec2-a00a-64bd5072e69e}-Venice.png</ZipFileName>
               <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Venice.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\EFA.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{35686252-e7b4-4d6e-a5da-a0b8de8c79d8}-EFA.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\EFA.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\Georges.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3fe38661-e547-47e7-9598-746bce5edd87}-Georges.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Georges.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\Goya.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ee114305-54b0-4bd7-97e6-b08d831ba670}-Goya.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Goya.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\KVIFF.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{afee83a9-eb7f-4968-9334-3eef75ddeede}-KVIFF.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\KVIFF.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\SSIFF.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f1735f58-555b-49c5-9b40-b17b2a39f7fd}-SSIFF.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\SSIFF.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\Sundance.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4433b380-f4f6-4781-aa27-013baa324c2a}-Sundance.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Sundance.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\Сesar.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5e92de1b-ac33-455f-9719-2edf9c50d795}-_esar.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Сesar.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -260,15 +309,30 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>3</Revision>
+      <Revision>5</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
-    <VersionDescription>Update SAG Awards picture - SAG.png
+    <VersionDescription>Add pictures:
+EFA
+Georges
+Goya
+KVIFF
+SSIFF
+Sundancs
+Cesar
+Update pictures:
+- Asian awards
+- Emmy awards
+- Nika
+- Oscar 
+- SAG 
+- Saturn
+
 </VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
-    <ReleaseDate>2016-03-29T13:46:50.8929615+03:00</ReleaseDate>
+    <ReleaseDate>2016-04-02T13:46:50</ReleaseDate>
     <Tags>mediaportal, awards</Tags>
     <Location>..\build\mediaportal.awards.mpe1</Location>
     <Params>
@@ -410,11 +474,60 @@ Color 96x96 pack</ExtensionDescription>
         <ZipFileName>Installer{CopyFile}\{3da7a6fb-a1cb-4ec2-a00a-64bd5072e69e}-Venice.png</ZipFileName>
         <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Venice.png</DestinationFilename>
       </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\EFA.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{35686252-e7b4-4d6e-a5da-a0b8de8c79d8}-EFA.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\EFA.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\Georges.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3fe38661-e547-47e7-9598-746bce5edd87}-Georges.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Georges.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\Goya.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ee114305-54b0-4bd7-97e6-b08d831ba670}-Goya.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Goya.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\KVIFF.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{afee83a9-eb7f-4968-9334-3eef75ddeede}-KVIFF.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\KVIFF.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\SSIFF.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f1735f58-555b-49c5-9b40-b17b2a39f7fd}-SSIFF.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\SSIFF.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\Sundance.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4433b380-f4f6-4781-aa27-013baa324c2a}-Sundance.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Sundance.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\Сesar.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5e92de1b-ac33-455f-9719-2edf9c50d795}-_esar.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Сesar.png</DestinationFilename>
+      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{07cf361f-9d4b-4405-8acb-7463a976415f}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{8204791b-5ca3-41d8-a56b-1be70a784705}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
