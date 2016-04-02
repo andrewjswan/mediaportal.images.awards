@@ -527,7 +527,7 @@ Update pictures:
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{8204791b-5ca3-41d8-a56b-1be70a784705}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{519cc807-face-4a0f-907e-43478f719e99}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
