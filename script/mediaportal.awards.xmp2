@@ -166,6 +166,23 @@
           </Items>
         </Files>
       </GroupItem>
+      <GroupItem Name="FanartHandler">
+        <ParentGroup />
+        <DisplayName>FanartHandler</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>FanartHandler Awards</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\..\..\C#\FanartHandler\Installer\config\FanartHandler.Awards.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{57aeac29-2eeb-42ff-9175-5cbc834f07fd}-FanartHandler.Awards.xml</ZipFileName>
+              <DestinationFilename>%Base%\FanartHandler.Awards.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
     </Items>
   </Groups>
   <Sections>
@@ -309,7 +326,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>5</Revision>
+      <Revision>6</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
@@ -523,11 +540,18 @@ Update pictures:
         <ZipFileName>Installer{CopyFile}\{5e92de1b-ac33-455f-9719-2edf9c50d795}-_esar.png</ZipFileName>
         <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Сesar.png</DestinationFilename>
       </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\..\..\C#\FanartHandler\Installer\config\FanartHandler.Awards.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{57aeac29-2eeb-42ff-9175-5cbc834f07fd}-FanartHandler.Awards.xml</ZipFileName>
+        <DestinationFilename>%Base%\FanartHandler.Awards.xml</DestinationFilename>
+      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{519cc807-face-4a0f-907e-43478f719e99}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{1222db4c-73b7-443d-92e8-790a2ae99add}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
