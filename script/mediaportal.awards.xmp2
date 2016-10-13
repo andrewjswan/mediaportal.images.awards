@@ -178,7 +178,7 @@
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\..\..\C#\FanartHandler\Installer\config\FanartHandler.Awards.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{57aeac29-2eeb-42ff-9175-5cbc834f07fd}-FanartHandler.Awards.xml</ZipFileName>
-              <DestinationFilename>%Base%\FanartHandler.Awards.xml</DestinationFilename>
+              <DestinationFilename>%Config%\FanartHandler.Awards.xml</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -326,30 +326,14 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>6</Revision>
+      <Revision>7</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
-    <VersionDescription>Add pictures:
-EFA
-Georges
-Goya
-KVIFF
-SSIFF
-Sundancs
-Cesar
-Update pictures:
-- Asian awards
-- Emmy awards
-- Nika
-- Oscar 
-- SAG 
-- Saturn
-
-</VersionDescription>
+    <VersionDescription>Fix FH.Awards config path ...</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
-    <ReleaseDate>2016-04-02T13:46:50</ReleaseDate>
+    <ReleaseDate>2016-10-13T13:46:50</ReleaseDate>
     <Tags>mediaportal, awards</Tags>
     <Location>..\build\mediaportal.awards.mpe1</Location>
     <Params>
@@ -545,13 +529,13 @@ Update pictures:
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\..\..\C#\FanartHandler\Installer\config\FanartHandler.Awards.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{57aeac29-2eeb-42ff-9175-5cbc834f07fd}-FanartHandler.Awards.xml</ZipFileName>
-        <DestinationFilename>%Base%\FanartHandler.Awards.xml</DestinationFilename>
+        <DestinationFilename>%Config%\FanartHandler.Awards.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{1222db4c-73b7-443d-92e8-790a2ae99add}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{c81f8369-70a8-4caa-a957-c41f5087341f}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
