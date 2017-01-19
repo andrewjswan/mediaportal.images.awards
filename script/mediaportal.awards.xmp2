@@ -163,6 +163,13 @@
               <ZipFileName>Installer{CopyFile}\{5e92de1b-ac33-455f-9719-2edf9c50d795}-_esar.png</ZipFileName>
               <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Сesar.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\GoldenTomato.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a7a115c9-e4b4-45bc-9d0c-b9f5c6e902f5}-GoldenTomato.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenTomato.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -326,14 +333,14 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>7</Revision>
+      <Revision>8</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
-    <VersionDescription>Fix FH.Awards config path ...</VersionDescription>
+    <VersionDescription>Add GoldenTomato</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
-    <ReleaseDate>2016-10-13T13:46:50</ReleaseDate>
+    <ReleaseDate>2017-01-19T13:46:50</ReleaseDate>
     <Tags>mediaportal, awards</Tags>
     <Location>..\build\mediaportal.awards.mpe1</Location>
     <Params>
@@ -523,6 +530,13 @@ Color 96x96 pack</ExtensionDescription>
         <LocalFileName>..\awards\Сesar.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{5e92de1b-ac33-455f-9719-2edf9c50d795}-_esar.png</ZipFileName>
         <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\Сesar.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\GoldenTomato.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a7a115c9-e4b4-45bc-9d0c-b9f5c6e902f5}-GoldenTomato.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenTomato.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
