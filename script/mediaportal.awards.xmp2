@@ -170,6 +170,27 @@
               <ZipFileName>Installer{CopyFile}\{a7a115c9-e4b4-45bc-9d0c-b9f5c6e902f5}-GoldenTomato.png</ZipFileName>
               <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenTomato.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\GoldenDuke.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9b0c67d3-9e0c-4a19-9baf-3dfea987f7b2}-GoldenDuke.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenDuke.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\GoldenDzyga.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fbe617bd-f0c6-4c13-a706-cd361465d29c}-GoldenDzyga.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenDzyga.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\GoldenEagle.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{eac80f12-9226-4eeb-bcdf-209dbb816624}-GoldenEagle.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenEagle.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -333,14 +354,14 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>8</Revision>
+      <Revision>9</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
-    <VersionDescription>Add GoldenTomato</VersionDescription>
+    <VersionDescription>Add New Awards</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
-    <ReleaseDate>2017-01-19T13:46:50</ReleaseDate>
+    <ReleaseDate>2018-03-14T13:46:50</ReleaseDate>
     <Tags>mediaportal, awards</Tags>
     <Location>..\build\mediaportal.awards.mpe1</Location>
     <Params>
@@ -538,6 +559,27 @@ Color 96x96 pack</ExtensionDescription>
         <ZipFileName>Installer{CopyFile}\{a7a115c9-e4b4-45bc-9d0c-b9f5c6e902f5}-GoldenTomato.png</ZipFileName>
         <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenTomato.png</DestinationFilename>
       </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\GoldenDuke.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9b0c67d3-9e0c-4a19-9baf-3dfea987f7b2}-GoldenDuke.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenDuke.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\GoldenDzyga.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fbe617bd-f0c6-4c13-a706-cd361465d29c}-GoldenDzyga.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenDzyga.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\GoldenEagle.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{eac80f12-9226-4eeb-bcdf-209dbb816624}-GoldenEagle.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenEagle.png</DestinationFilename>
+      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
@@ -549,7 +591,7 @@ Color 96x96 pack</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{c890cef8-c372-4310-b563-15ced3eb4df7}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{5635950f-ca2a-432c-92a7-0e7b88d2a0d8}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
