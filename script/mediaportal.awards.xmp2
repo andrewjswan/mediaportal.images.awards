@@ -191,6 +191,27 @@
               <ZipFileName>Installer{CopyFile}\{eac80f12-9226-4eeb-bcdf-209dbb816624}-GoldenEagle.png</ZipFileName>
               <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenEagle.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\GoldenPeacock.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1b0e0eb5-116a-4926-b8ee-d6f7b12c5b1f}-GoldenPeacock.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenPeacock.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\GoldenPyramid.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0d4f6842-5397-4303-8895-f329c4d2b5b5}-GoldenPyramid.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenPyramid.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\awards\PrizeTrieste.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3b3b6e1a-9f45-4f19-b180-8456eaf05ccb}-PrizeTrieste.png</ZipFileName>
+              <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\PrizeTrieste.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -354,14 +375,14 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>1</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>9</Revision>
+      <Revision>11</Revision>
     </Version>
     <ExtensionDescription>FanartHandler Awards images for Medaportal skins
 Color 96x96 pack</ExtensionDescription>
     <VersionDescription>Add New Awards</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal.images.awards/master/build/mediaportal.awards.mpe1</OnlineLocation>
-    <ReleaseDate>2018-03-14T13:46:50</ReleaseDate>
+    <ReleaseDate>2020-01-08T13:46:50</ReleaseDate>
     <Tags>mediaportal, awards</Tags>
     <Location>..\build\mediaportal.awards.mpe1</Location>
     <Params>
@@ -580,6 +601,27 @@ Color 96x96 pack</ExtensionDescription>
         <ZipFileName>Installer{CopyFile}\{eac80f12-9226-4eeb-bcdf-209dbb816624}-GoldenEagle.png</ZipFileName>
         <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenEagle.png</DestinationFilename>
       </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\GoldenPeacock.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1b0e0eb5-116a-4926-b8ee-d6f7b12c5b1f}-GoldenPeacock.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenPeacock.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\GoldenPyramid.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0d4f6842-5397-4303-8895-f329c4d2b5b5}-GoldenPyramid.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\GoldenPyramid.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\awards\PrizeTrieste.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3b3b6e1a-9f45-4f19-b180-8456eaf05ccb}-PrizeTrieste.png</ZipFileName>
+        <DestinationFilename>%Thumbs%\Skin FanArt\Media\Logos\Awards\PrizeTrieste.png</DestinationFilename>
+      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
@@ -591,7 +633,7 @@ Color 96x96 pack</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>pack.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{5635950f-ca2a-432c-92a7-0e7b88d2a0d8}-pack.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{e63d6009-8477-401d-9515-c52b394d11f5}-pack.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
